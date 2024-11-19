@@ -21,7 +21,7 @@ const Projects: React.FC = () => {
             <img
               src="https://d.rapidcdn.app/snapinsta?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJodHRwczovL3Njb250ZW50LmNkbmluc3RhZ3JhbS5jb20vdi90MzkuMzA4MDgtNi80NjIxMzE4NTRfMTgwMDAyNjAxMTE2ODAyNTFfODgzNzYxODEwMTg0NTMzOTMzOV9uLmpwZz9zdHA9ZHN0LWpwZ19lMzVfczY0MHg2NDBfc2gwLjA4JmVmZz1leUoyWlc1amIyUmxYM1JoWnlJNkltbHRZV2RsWDNWeWJHZGxiaTR4TkRRd2VEazJNQzV6WkhJdVpqTXdPREE0TG1SbFptRjFiSFJmYVcxaFoyVWlmUSZfbmNfaHQ9c2NvbnRlbnQuY2RuaW5zdGFncmFtLmNvbSZfbmNfY2F0PTEwMyZfbmNfb2hjPUE5SW04SmdsaU1FUTdrTnZnSFJkblRVJl9uY19naWQ9Y2VmMjVlNDNlZTUzNGQzY2I2MzNkMzRkYWY4ZWZhNTImZWRtPUFQczE3Q1VBQUFBQSZjY2I9Ny01Jm9oPTAwX0FZQXc3N3RZemRoRFVuakhqYTRhcEZXRmlFS3MzMVdpXzlhRGw4Y0k5bUJyQVEmb2U9Njc0Mjc5NDcmX25jX3NpZD0xMGQxM2IiLCJmaWxlbmFtZSI6IlNuYXBpbnN0YS5hcHBfdGh1bWJfNDYyMTMxODU0XzE4MDAwMjYwMTExNjgwMjUxXzg4Mzc2MTgxMDE4NDUzMzkzMzlfbi5qcGcifQ.Eeksb15ULSU8_cg4apb7HOQAK87uezVqOg3Ibb5Nv_4"
               alt="Project 1"
-              className="w-full h-48 object-cover"
+              className="w-full h-48 object-cover" // image will cover the space of the div
             />
           </a>
           <div className="absolute bottom-0 left-0 right-0 p-6 bg-black bg-opacity-50 text-white">
@@ -49,7 +49,7 @@ const Projects: React.FC = () => {
             <img
               src="https://i.ibb.co/ZzBjGk6/Untitled.png"
               alt="Project 2"
-              className="w-full h-48 object-cover"
+              className="w-full h-48 object-cover" // Ensures image covers the div
             />
           </a>
           <div className="absolute bottom-0 left-0 right-0 p-6 bg-black bg-opacity-50 text-white">
@@ -77,7 +77,7 @@ const Projects: React.FC = () => {
             <img
               src="https://free-3dtextureshd.com/wp-content/uploads/2024/03/32.jpg.webp"
               alt="Project 3"
-              className="w-full h-48 object-cover"
+              className="w-full h-48 object-cover" // image will cover the container
             />
           </a>
           <div className="absolute bottom-0 left-0 right-0 p-6 bg-black bg-opacity-50 text-white">

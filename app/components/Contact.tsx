@@ -31,18 +31,16 @@ const Contact: React.FC = () => {
         formData,
         "95k_Fj2kWAzLVmsKe",
       )
-      .then(
-        (response) => {
-          // Show success message and clear the input fields
-          setResponseMessage("Message sent successfully!");
-          setName(""); // Clear name field
-          setEmail(""); // Clear email field
-          setMessage(""); // Clear message field
-        },
-        (error) => {
-          setResponseMessage("Failed to send message. Please try again later.");
-        },
-      );
+      .then(() => {
+        // Show success message and clear the input fields
+        setResponseMessage("Message sent successfully!");
+        setName(""); // Clear name field
+        setEmail(""); // Clear email field
+        setMessage(""); // Clear message field
+      })
+      .catch(() => {
+        setResponseMessage("Failed to send message. Please try again later.");
+      });
   };
 
   return (
