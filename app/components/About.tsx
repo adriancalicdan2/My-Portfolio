@@ -7,7 +7,7 @@ const About: React.FC = () => {
       <div className="max-w-3xl mx-auto">
         <h2 className="text-3xl font-semibold mb-6">About Me</h2>
         <p className="text-lg">
-          Hi, I'm Adrian Calicdan, a passionate web developer who loves to
+          Hi, I am Adrian Calicdan, a passionate web developer who loves to
           experiment with futuristic designs and technologies. I create unique,
           interactive websites and web applications that are both functional and
           aesthetically pleasing.
@@ -16,5 +16,4 @@ const About: React.FC = () => {
     </section>
   );
 };
-
 export default About;
