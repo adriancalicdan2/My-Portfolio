@@ -26,7 +26,9 @@ const Projects: React.FC = () => {
           </a>
           <div className="absolute bottom-0 left-0 right-0 p-6 bg-black bg-opacity-50 text-white">
             <h3 className="text-xl mb-2">KAIA - Fanbase</h3>
-            <p className="mb-4">A website to communicate with the fans</p>
+            <p className="mb-4">
+              A platform for fan interactions and communication.
+            </p>
             <a
               href="https://zaialand.netlify.app"
               target="_blank"
