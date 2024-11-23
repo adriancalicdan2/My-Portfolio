@@ -19,7 +19,7 @@ const Header = () => {
           Adrian Calicdan
         </h1>
         <p className="text-xl mb-6 animate__animated animate__fadeInUp">
-          Web Developer & Designer | Creating the Future of the Web
+          Web Developer | Creating the Future of the Web
         </p>
         <Link
           href="#about"
