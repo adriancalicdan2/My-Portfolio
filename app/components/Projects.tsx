@@ -19,7 +19,7 @@ const Projects: React.FC = () => {
           >
             {/* Directly use a specific image for Project 1 */}
             <img
-              src="https://d.rapidcdn.app/snapinsta?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJodHRwczovL3Njb250ZW50LmNkbmluc3RhZ3JhbS5jb20vdi90MzkuMzA4MDgtNi80NjIxMzE4NTRfMTgwMDAyNjAxMTE2ODAyNTFfODgzNzYxODEwMTg0NTMzOTMzOV9uLmpwZz9zdHA9ZHN0LWpwZ19lMzVfczY0MHg2NDBfc2gwLjA4JmVmZz1leUoyWlc1amIyUmxYM1JoWnlJNkltbHRZV2RsWDNWeWJHZGxiaTR4TkRRd2VEazJNQzV6WkhJdVpqTXdPREE0TG1SbFptRjFiSFJmYVcxaFoyVWlmUSZfbmNfaHQ9c2NvbnRlbnQuY2RuaW5zdGFncmFtLmNvbSZfbmNfY2F0PTEwMyZfbmNfb2hjPUE5SW04SmdsaU1FUTdrTnZnSFJkblRVJl9uY19naWQ9Y2VmMjVlNDNlZTUzNGQzY2I2MzNkMzRkYWY4ZWZhNTImZWRtPUFQczE3Q1VBQUFBQSZjY2I9Ny01Jm9oPTAwX0FZQXc3N3RZemRoRFVuakhqYTRhcEZXRmlFS3MzMVdpXzlhRGw4Y0k5bUJyQVEmb2U9Njc0Mjc5NDcmX25jX3NpZD0xMGQxM2IiLCJmaWxlbmFtZSI6IlNuYXBpbnN0YS5hcHBfdGh1bWJfNDYyMTMxODU0XzE4MDAwMjYwMTExNjgwMjUxXzg4Mzc2MTgxMDE4NDUzMzkzMzlfbi5qcGcifQ.Eeksb15ULSU8_cg4apb7HOQAK87uezVqOg3Ibb5Nv_4"
+              src="https://scontent.fmnl9-4.fna.fbcdn.net/v/t39.30808-6/472314638_621340640361775_7610287009339985567_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeF1rZoQ4bT3_8ZqgTLh3-ClUJGdQbhrJ1hQkZ1BuGsnWHejYpx4zXXOc_8dcVp2-EGDTIQxOcCmrg3WUE5JGZen&_nc_ohc=PzpxmZ3gROAQ7kNvgGYW6PH&_nc_zt=23&_nc_ht=scontent.fmnl9-4.fna&_nc_gid=AfY1LU7j4iuw4qPYWKCRBAW&oh=00_AYC82w62x6QMU1RgYACkhptx6_m2x6YHFewCAvIxl81sbg&oe=677D88AF"
               alt="Project 1"
               className="w-full h-48 object-cover" // image will cover the space of the div
             />
@@ -69,32 +69,6 @@ const Projects: React.FC = () => {
         </div>
 
         {/* Project 3 (if applicable) */}
-        <div className="relative bg-gray-700 rounded-lg shadow-lg overflow-hidden">
-          <a
-            href="https://another-example.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {/* Directly use a specific image for Project 3 */}
-            <img
-              src="https://free-3dtextureshd.com/wp-content/uploads/2024/03/32.jpg.webp"
-              alt="Project 3"
-              className="w-full h-48 object-cover" // image will cover the container
-            />
-          </a>
-          <div className="absolute bottom-0 left-0 right-0 p-6 bg-black bg-opacity-50 text-white">
-            <h3 className="text-xl mb-2">Another Project</h3>
-            <p className="mb-4">An exciting project showcasing skills.</p>
-            <a
-              href="https://another-example.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-pink-500 hover:text-white"
-            >
-              View Project
-            </a>
-          </div>
-        </div>
       </div>
     </section>
   );
